@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        textViewSeconds = findViewById(R.id.textSeconds)
     }
 
     override fun onPause() {
